@@ -1,8 +1,18 @@
+create a folder
+
+in that folder .... create a package 
+
+    uv init "package_name"
+
 Create venv 
 
-template.py 
+    uv .venv
 
-python template.py 
+- create a python file to handle for all paths and directories
+
+    template.py 
+
+for run the file .... python template.py 
 
 requirements.txt
 
