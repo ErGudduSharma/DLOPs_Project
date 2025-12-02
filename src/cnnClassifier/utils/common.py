@@ -4,7 +4,7 @@ import yaml
 from src.cnnClassifier import logger
 import json
 import joblib
-# from ensure import ensure_annotations
+from ensure import ensure_annotations
 from box import ConfigBox
 from pathlib import Path
 from typing import Any
@@ -13,7 +13,7 @@ import base64
 
 def read_yaml(path_to_yaml: Path) -> ConfigBox:
     try:
-        with open(path_to_yaml, "r", encoding="utf-8") as yaml_file:
+        with open(path_to_yaml, "r", encoding = "utf-8") as yaml_file:
             content = yaml.safe_load(yaml_file)
             print("✅ YAML Content:", content)  # Debug
             logger.info(f"YAML file {path_to_yaml} loaded successfully")

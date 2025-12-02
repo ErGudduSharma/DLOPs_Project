@@ -79,6 +79,7 @@ folder Pipeline ---> create new file 'stage_02_prepare_base_model.py'
 For run this , we have to add this stage_02 in main.py 
 from src.cnnClassifier.pipeline.stage_02_prepare_base_model import PrepareBaseModelTrainingPipeline
 
+
 And also add stage_02 in below in main.py. 
 
 

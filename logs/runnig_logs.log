@@ -48,3 +48,46 @@ Source-Age: 1
 [2025-12-01 13:40:19,734: INFO: main: >>>>>> Data Ingestion Stage completed <<<<<<
 
 x==========x]
+[2025-12-02 13:40:59,834: INFO: main: Welcome to my custom log]
+[2025-12-02 13:40:59,837: INFO: main: Welcome to my custom log]
+[2025-12-02 13:41:06,826: INFO: main: >>>>>> Data Ingestion Stage started <<<<<<]
+[2025-12-02 13:41:06,872: INFO: common: YAML file config\config.yaml loaded successfully]
+[2025-12-02 13:41:06,916: INFO: common: YAML file params.yaml loaded successfully]
+[2025-12-02 13:41:06,918: INFO: common: created directory at: artifacts]
+[2025-12-02 13:41:06,920: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-12-02 13:41:06,923: INFO: data_ingestion: File already exists of size: ~ 11345 KB]
+[2025-12-02 13:41:08,109: INFO: main: >>>>>> Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2025-12-02 15:11:09,925: INFO: main: Welcome to my custom log]
+[2025-12-02 15:11:09,926: INFO: main: Welcome to my custom log]
+[2025-12-02 15:11:11,344: INFO: main: >>>>>> Data Ingestion Stage started <<<<<<]
+[2025-12-02 15:11:11,353: INFO: common: YAML file config\config.yaml loaded successfully]
+[2025-12-02 15:11:11,362: INFO: common: YAML file params.yaml loaded successfully]
+[2025-12-02 15:11:11,365: INFO: common: created directory at: artifacts]
+[2025-12-02 15:11:11,366: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-12-02 15:11:11,368: INFO: data_ingestion: File already exists of size: ~ 11345 KB]
+[2025-12-02 15:11:12,521: INFO: main: >>>>>> Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2025-12-02 15:13:11,010: INFO: main: Welcome to my custom log]
+[2025-12-02 15:13:11,013: INFO: main: Welcome to my custom log]
+[2025-12-02 15:13:11,993: INFO: main: >>>>>> Data Ingestion Stage started <<<<<<]
+[2025-12-02 15:13:11,998: INFO: common: YAML file config\config.yaml loaded successfully]
+[2025-12-02 15:13:12,005: INFO: common: YAML file params.yaml loaded successfully]
+[2025-12-02 15:13:12,007: INFO: common: created directory at: artifacts]
+[2025-12-02 15:13:12,008: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-12-02 15:13:12,009: INFO: data_ingestion: File already exists of size: ~ 11345 KB]
+[2025-12-02 15:13:12,697: INFO: main: >>>>>> Data Ingestion Stage completed <<<<<<
+
+x==========x]
+[2025-12-02 15:59:20,885: INFO: common: YAML file config\config.yaml loaded successfully]
+[2025-12-02 15:59:20,896: INFO: common: YAML file params.yaml loaded successfully]
+[2025-12-02 15:59:20,899: INFO: common: created directory at: artifacts]
+[2025-12-02 15:59:20,903: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-12-02 16:06:38,695: INFO: common: YAML file config\config.yaml loaded successfully]
+[2025-12-02 16:06:38,703: INFO: common: YAML file params.yaml loaded successfully]
+[2025-12-02 16:06:38,707: INFO: common: created directory at: artifacts]
+[2025-12-02 16:06:38,711: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-12-02 16:06:40,991: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-12-02 16:06:41,584: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
