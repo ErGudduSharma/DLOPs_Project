@@ -7,10 +7,10 @@ STAGE_NAME = "Prepare base model"
 
 
 class PrepareBaseModelTrainingPipeline:
-    def __init__(self):
+    def __init__(self) -> None:
         pass
 
-    def main(self):
+    def main(self) -> None:
         config = ConfigurationManager()
         prepare_base_model_config = config.get_prepare_base_model_config()
         prepare_base_model = PrepareBaseModel(config=prepare_base_model_config)
